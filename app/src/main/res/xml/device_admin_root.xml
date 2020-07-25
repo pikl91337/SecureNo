@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<PreferenceCategory
+        android:title="@string/enable_root" >
+
+        <CheckBoxPreference
+            android:key="key_enable_root"
+            android:title="@string/enable_root" />
+
+    </PreferenceCategory>-->
+
+    <PreferenceCategory
+        android:title="@string/device_capabilities_category" >
+
+        <CheckBoxPreference
+            android:key="key_disable_microphone_module"
+            android:title="@string/disable_microphone_module" />
+
+        <CheckBoxPreference
+            android:key="key_disable_microphone_setprop"
+            android:title="@string/disable_microphone_setprop" />
+
+        <CheckBoxPreference
+            android:key="key_disable_gps_root"
+            android:title="@string/disable_gps_root" />
+
+        <CheckBoxPreference
+            android:key="key_disable_cell_root"
+            android:title="@string/disable_cell_root" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/internet_access" >
+
+        <CheckBoxPreference
+            android:key="key_disable_internet_access"
+            android:title="@string/disable_internet_access" />
+
+
+        <CheckBoxPreference
+            android:key="key_enable_telegram_access"
+            android:title="@string/enable_telegram_access"
+            android:icon="@drawable/telegram"/>/>
+
+        <CheckBoxPreference
+            android:key="key_enable_youtube_access"
+            android:title="@string/enable_youtube_access"
+            android:icon="@drawable/youtube"/>
+
+        <CheckBoxPreference
+            android:key="key_enable_vk_access"
+            android:title="@string/enable_vk_access"
+            android:icon="@drawable/vk"/>
+
+        <CheckBoxPreference
+            android:key="key_enable_chrome_access"
+            android:title="@string/enable_chrome_access"
+            android:icon="@drawable/chrome"/>
+
+        <CheckBoxPreference
+            android:key="key_enable_whatsapp_access"
+            android:title="@string/enable_whatsapp_access"
+            android:icon="@drawable/whatsapp"/>
+
+        <CheckBoxPreference
+            android:key="key_enable_vysor_access"
+            android:title="@string/enable_vysor_access"
+            android:icon="@drawable/vysor"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>
